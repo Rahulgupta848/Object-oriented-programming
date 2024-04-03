@@ -1,0 +1,64 @@
+class :-
+        It is a user-defined data type, which holds its own data members and member functions,
+         which can be accessed and used by creating an instance of that class. 
+
+syntax :-
+     class Student{
+          ....attributes
+          ....attributes
+          ....attributes
+     };
+
+Constructor :-
+     it is used to initialize the class ,it is the 1st  function called when we create an object of a class.
+     there are three types of constructor.
+     a.default constructor (no parameters are passed)
+     b.parameterized constructor (parameters are passed)
+     c.copy constructor (it copys the data members of object  into another objects data members).
+
+
+     A.Default constructor:-
+          class Student {
+               ...atributes.
+               
+               public:
+                    Student(){
+                         print("default constructor is called")
+                    }
+          };
+
+          int main(){
+               Student s; // calling default constructor
+          }
+
+     B.parameterized constructor :-
+          class Student{
+               int id;
+               string name;
+
+               public:
+                    Student(int id,string name){
+                         this->id = id;
+                         this->name = name;
+                    }
+          }
+          int main(){
+               Student s(1, "John");// parameterized constructor;
+          }
+
+
+     C.Copy Constructor : -
+          class Student{
+               int id;
+               string name;
+
+               Student(const Student &obj){
+                    this->id = obj.id;
+                    this->name = obj.name;
+               }
+          }
+
+          int main(){
+               Student s1(1,"john");
+               Student s2 = s1;  // copy constructor is called here;
+          }

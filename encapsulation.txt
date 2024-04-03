@@ -1,0 +1,14 @@
+#Encapsulation -----
+     1.it binds data and methods  together in a single class
+     2.It hides the internal details of an object from outside world.
+     3.Restricting access to some parts of the code.
+     4.Provides secure layer.
+     5.It is also known as data binding
+
+**Access modifiers**
+     1.Public
+          public members  can be accessed from any part of code.
+     2.Private
+          private member can be accessed from within class only cant be accessed outside of class directly.
+     3.Protected
+          protected members  are accessible from within the same class and its subclasses.

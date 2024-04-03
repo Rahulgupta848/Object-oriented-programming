@@ -1,0 +1,10 @@
+# Inheritance :-
+     1.it is a way of creating a class from existing class.
+     2.the derived class inherits some attributes from parent class
+
+different types of inheretance:-
+1.signle inheretance
+2.multiple inheretance
+3.multilevel inheritance 
+4.heirachical inheretance
+5.hybrid inheretance
